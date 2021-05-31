@@ -4,10 +4,22 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// Trabajar CSS siempre separado por componentes
+
+// const element = <h1>Hola soy un tag</h1>
+
+// const saludo = (nombre:string)=> {
+//   return <p>Hola {nombre}</p>
+// }
+
+// const element2 = React.createElement("h1", {className:"title"}, "Hola chicos");
+
+// console.log(element);
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
+    </React.StrictMode>,
   document.getElementById('root')
 );
 
